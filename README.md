@@ -63,7 +63,7 @@ source /opt/ros/kinetic/setup.bash
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/
 cd src/
-git clone -b Week11_HW https://github.com/KrishnaBhatu/beginner_tutorials.git
+git clone https://github.com/KrishnaBhatu/turtle_walker
 cd ..
 catkin_make
 ```
@@ -74,13 +74,13 @@ Now the package is ready to use
 
 In the same terminal run the following command to execute the simulation
 ```
-source /opt/ros/kinetic/setup.bash
+source devel/setup.bash
 roslaunch turtle_walker goTurtle.launch
 ```
 OR
 If we want to record the bag file along with execution then run the following command
 ```
-source /opt/ros/kinetic/setup.bash
+source devel/setup.bash
 roslaunch turtle_walker goTurtle.launch run_rosbag:=true
 ```
 The bag file will be created in the results folder.
