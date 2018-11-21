@@ -1,0 +1,7 @@
+Output of Google Styling:
+
+cpplint $( find . -name \*.hpp -or -name \*.cpp | grep -vE -e "^./build/" -e "^./vendor/" -e "^./docs/" -e "^./results" )
+Done processing ./src/turtle_walker/include/roomba.hpp
+Done processing ./src/turtle_walker/src/main.cpp
+Done processing ./src/turtle_walker/src/roomba.cpp
+
