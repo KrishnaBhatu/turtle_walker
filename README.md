@@ -158,6 +158,7 @@ topics:      /clock                                            2422 msgs    : ro
 
 ```
 
+Now to check the output of the published message by the /cmd_vel_mux/input/navi from the .bag file, follow the instructions;
 Also, Gazebo should be closed before running this.
 Then,
 Open another terminal
