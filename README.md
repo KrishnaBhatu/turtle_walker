@@ -71,7 +71,8 @@ catkin_make
 Now the package is ready to use
 
 # Run instruction
-
+[NOTE:] In order to better observe the functionality of the obstacle avoidance, move the obstacles in front of the moving
+        turtlebot at some distance and then the bot will detect the obstacle and change it's path.
 In the same terminal run the following command to execute the simulation
 ```
 source devel/setup.bash
